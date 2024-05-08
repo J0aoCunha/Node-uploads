@@ -2,7 +2,6 @@ import { PutObjectCommand } from "@aws-sdk/client-s3";
 import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 import { randomUUID } from "crypto";
 import { FastifyRequest } from "fastify";
-import { request } from "http";
 import { z } from "zod";
 import { r2 } from "../../../lib/cloudflare";
 import { prisma } from "../../../lib/prisma";
