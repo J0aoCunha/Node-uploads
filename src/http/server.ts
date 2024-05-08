@@ -1,6 +1,9 @@
 import fastify from "fastify";
+import { filesRouter } from "./controllers/files/files-routes";
 
 const app = fastify();
+
+app.register(filesRouter);
 
 app
   .listen({
