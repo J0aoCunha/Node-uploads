@@ -68,10 +68,14 @@ Siga estas etapas para configurar e executar o backend em seu ambiente local:
 
 ## Recursos Utilizados
 
-- Node.js - Plataforma de execução de JavaScript para construir aplicativos de rede escaláveis.
-- TypeScript - Uma linguagem que adiciona tipagem estática ao JavaScript.
-- Prisma - ORM moderno para Node.js e TypeScript.
-- Zod - Uma biblioteca de validação de esquema TypeScript.
-- Swagger - Uma ferramenta de código aberto para documentação de APIs.
-- Cloudflare R2 - A API de armazenamento da Cloudflare.
-ss
+- ![Nodejs](https://img.shields.io/badge/Node.js-5FA04E.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
+- ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+
+- ![Prisma](https://img.shields.io/badge/Prisma-2D3748.svg?style=for-the-badge&logo=Prisma&logoColor=white)
+
+- ![Zod](https://img.shields.io/badge/Zod-3E67B1.svg?style=for-the-badge&logo=Zod&logoColor=white)
+
+- ![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?style=for-the-badge&logo=Swagger&logoColor=black)
+
+- ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020.svg?style=for-the-badge&logo=Cloudflare&logoColor=white)
