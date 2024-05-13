@@ -3,6 +3,14 @@ import { filesRouter } from "./controllers/files/files-routes";
 
 const app = fastify();
 
+const swagger = import("@fastify/swagger");
+const swaggerUi = import("@fastify/swagger-ui");
+
+app.register(swagger);
+app.register(swaggerUi, {
+  prefix: "/docs",
+});
+
 app.register(filesRouter);
 
 app
